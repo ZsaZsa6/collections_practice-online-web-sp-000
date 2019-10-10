@@ -37,5 +37,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-array[0, 2...].collect{|item| item += "s"}
+[0, 2...]each.collect{|item| item += "s"}
 end
