@@ -42,6 +42,7 @@ def add_s(array)
       item
     else
       item << "s"
-      array
+      return array
+    end
   end
 end
