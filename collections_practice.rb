@@ -38,7 +38,7 @@ end
 
 def add_s(array)
   array.each_with_index do |index, item|
-    if index = 3
+    if index = 2
       item
     else
       item << "s"
