@@ -38,10 +38,10 @@ end
 
 def add_s(array)
   array.each_with_index do |index, item|
-    if index = 0
-      item << "s"
+    if index <=2
+      index
     else
-      item 
+      item << "s"
     end
     array
   end
