@@ -24,10 +24,11 @@ def reverse_array(rev_arr)
 end
 
 def kesha_maker(string_arr)
-    i = 3
-    each_with_index.collect{|index, element| }
-
+    string_arr.each_with_index.collect{|index, element| index[3] puts "$"}
 end
+return string_arr
+end
+
 def my_each(array)
   i = 0
   while i < array.length
