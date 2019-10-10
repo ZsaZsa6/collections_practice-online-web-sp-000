@@ -39,7 +39,7 @@ end
 def add_s(array)
   i = 0
   while i != 2
-
     do array.collect{|item| item += "s"}
       i += 1
+  end
 end
