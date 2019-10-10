@@ -25,7 +25,7 @@ end
 
 def kesha_maker(string_arr)
     new_array = []
-    new_array << string_arr.each_with_index.{|element, index| "$"[3]}
+    new_array << string_arr.each_with_index.collect{|element, index| "$"[3]}
   return new_array
 end
 
