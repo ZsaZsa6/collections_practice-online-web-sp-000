@@ -24,7 +24,8 @@ def reverse_array(rev_arr)
 end
 
 def kesha_maker(string_arr)
- string_arr.each_with_index.replace{|element, index| "$"[3]}
+  new_array = []
+ new_array << string_arr.each_with_index.{|element, index| "$"[3]}
 
   end
 
