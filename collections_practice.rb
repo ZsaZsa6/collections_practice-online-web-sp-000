@@ -37,5 +37,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-[0, 1, 3]each.collect{|item| item += "s"}
+  i = 0
+  while i != 3
+
+    do array.collect{|item| item += "s"}
+      i += 1
 end
