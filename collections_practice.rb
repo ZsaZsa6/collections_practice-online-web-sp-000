@@ -45,4 +45,4 @@ def add_s(array)
     end
     arr
   end
-  
+end
