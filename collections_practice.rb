@@ -24,10 +24,10 @@ def reverse_array(rev_arr)
 end
 
 def kesha_maker(string_arr)
-  new_array = []
- new_array << string_arr.each_with_index.{|element, index| "$"[3]}
-
-  end
+    new_array = []
+    new_array << string_arr.each_with_index.{|element, index| "$"[3]}
+  return new_array
+end
 
 
 def find_a(strings)
