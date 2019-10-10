@@ -38,10 +38,10 @@ end
 
 def add_s(array)
   array.each_with_index do |index, item|
-    if index != 3
-      item << "s"
-    else
+    if index = 3
       item
+    else
+      item << "s"
     end
     array
   end
