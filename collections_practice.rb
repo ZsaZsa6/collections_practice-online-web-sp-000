@@ -25,6 +25,7 @@ end
 
 def kesha_maker(string_arr)
     i = 3
+    each_with_index.collect{|index, element| }
 
 end
 def my_each(array)
