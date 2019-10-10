@@ -39,7 +39,7 @@ end
 def add_s(array)
   array.each_with_index do |index, item|
     if index == 2
-      index
+      item
     else
       item << "s"
     end
