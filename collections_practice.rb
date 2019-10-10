@@ -24,17 +24,8 @@ def reverse_array(rev_arr)
 end
 
 def kesha_maker(string_arr)
-    string_arr.each_with_index.collect{|index, element| index[3] "#{element $}"}
-return string_arr
-end
-
-def my_each(array)
-  i = 0
-  while i < array.length
-      yield (array[i])
-      i = i + 1
-  end
-    array
+  string_array.each {|item| item[3] = "$"}
+  return string_array
 end
 
 
