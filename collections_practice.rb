@@ -25,7 +25,6 @@ end
 
 def kesha_maker(string_arr)
     string_arr.each_with_index.collect{|index, element| index[3] puts "#{$}"}
-end
 return string_arr
 end
 
